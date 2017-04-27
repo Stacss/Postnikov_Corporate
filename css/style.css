@@ -67,6 +67,17 @@ p {
 .container {
 	margin: 0px 120px 120px 120px;
 }
+.container h3 {
+	text-align: center;
+}
+.container h4 {
+	text-align: center;
+}
+.container p {
+	display: block;
+	margin-top: 30px;
+}
+
 .grey {
 	width: 100%;
 	background-image: url(../img/BG_section.jpg);
@@ -84,6 +95,7 @@ p {
 	margin-top: 0px;
 	text-align: center;
 }
+
 .container_grey h4 {
 	display: block;
 	text-align: center;
@@ -143,4 +155,48 @@ p {
 	margin: 0% 5%;
 	filter: invert(100%);
 	text-align: center;
+}
+.logo {
+	width: 240px;
+	height: 160px;
+	text-align: left;
+	margin: 80px 0px 100px 150px;
+	line-height: 2;
+	font-size: 14px;
+}
+.logo a {
+	text-decoration: none;
+	color: #c7c6c5;	
+}
+.logo address {
+	text-decoration: none;
+	color: #c7c6c5;	
+}
+footer nav{
+	float: left;
+}
+footer div{
+	float: left;
+}
+nav {
+	width: 100px;
+	height: 160px;
+	margin: 80px 0px 100px 70px;
+	line-height: 2;
+}
+nav strong {
+	font-size: 22px;
+	color: #282828;
+	font-weight: normal;
+}
+nav a{
+	text-decoration: none;
+	color: #c7c6c5;
+}
+nav a:hover {
+	color: black;
+}
+
+nav li {
+	list-style-type: none;
 }

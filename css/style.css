@@ -40,14 +40,23 @@ h3 {
 	font-size: 16px;
 	font-weight: normal;
 }
+
 h4 {
 	text-align: left;
 	color: #282828;
 	font-size: 40px;
 	font-weight: normal;	
 }
+h5 {
+	text-align: center;
+	color: #282828;
+	font-size: 22px;
+	font-weight: normal;	
+}
+p {
+	color: #c7c6c5;
+}
 .sample_photo {
-	position: relative;
 	width: 566px;
 	height: 725px;
 	margin-top: -170px;
@@ -56,8 +65,7 @@ h4 {
 	background-color: #ececec;
 }
 .container {
-	width: 100%;
-	margin: 170px 0px 120px 120px;
+	margin: 0px 0px 120px 120px;
 }
 .grey {
 	width: 100%;
@@ -67,5 +75,36 @@ h4 {
 	
 }
 .container_grey {
+	position: relative;
 	margin: 0 auto;
+	padding: 120px 0px;
+}
+.container_grey div > img{
+	display: block;
+	margin: 0 auto;
+}
+
+.container_grey h3 {
+	display: block;
+	margin-top: 0px;
+	text-align: center;
+}
+.container_grey h4 {
+	display: block;
+	text-align: center;
+}
+
+.container_grey div {
+	width: 25%;
+	display: inline-block;
+	margin-left: 6.25%;
+	margin-top: 85px;
+}
+.sample_photo_left {
+	width: 730px;
+	height:700px;
+	float: left;
+	margin-top: -170px;
+	background-color: white;
+	border: solid 1px black;
 }

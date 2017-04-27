@@ -79,11 +79,6 @@ p {
 	margin: 0 auto;
 	padding: 120px 0px;
 }
-.container_grey div > img{
-	display: block;
-	margin: 0 auto;
-}
-
 .container_grey h3 {
 	display: block;
 	margin-top: 0px;
@@ -99,12 +94,43 @@ p {
 	display: inline-block;
 	margin-left: 6.25%;
 	margin-top: 85px;
+	text-align: center;
 }
 .sample_photo_left {
 	width: 730px;
-	height:700px;
 	float: left;
 	margin-top: -170px;
 	background-color: white;
-	border: solid 1px black;
+	padding: 70px;
+}
+.container_customer {
+	position: relative;
+	width: 100%;
+	height: 646px;
+	background-image: url(../img/bg_customer.jpg);
+	background-size: 100%;
+	background-position: center;
+	
+}
+.container_customer div {
+	width: 25%;
+	display: inline-block;
+	margin-left: 6.25%;
+	margin-top: 85px;
+	text-align: center;
+}
+.container_customer h3{
+	
+	display: block;
+	margin-top: 10px;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+.container_customer h4{
+	display: block;
+	color: red;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 20px;
 }

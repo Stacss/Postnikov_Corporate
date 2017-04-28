@@ -32,6 +32,10 @@ section {
 	margin: 0 auto;
 	background-color: white;
 }
+section img {
+	display: block;
+	margin: 0 auto;
+}
 h3 {
 	display: block;
 	margin-top: 170px;
@@ -77,7 +81,17 @@ p {
 	display: block;
 	margin-top: 30px;
 }
-
+.container_form {
+	margin: 0px 120px 0px 120px;
+}
+.container_form h3 {
+	text-align: center;
+	margin-top: 0px;
+}
+.container_form h4 {
+	text-align: center;
+	color: white;
+}
 .grey {
 	width: 100%;
 	background-image: url(../img/BG_section.jpg);
@@ -200,3 +214,31 @@ nav a:hover {
 nav li {
 	list-style-type: none;
 }
+.form {
+	width: 100%;
+	padding: 45px 0px 45px 0px;
+	background-color: #323969;
+	text-align: center;
+}
+.form input{
+	display: inline-block;
+	margin: 100px 10px 50px 10px;
+	width: 260px;
+	height: 50px;
+	border: solid 1px white;
+	border-radius: 3px;
+}
+.form button{
+	display: inline-block;
+	margin: 100px 10px 50px 10px;
+	width: 260px;
+	height: 50px;
+	border: solid 1px white;
+	border-radius: 3px;
+	background-color: red;
+	color: white;
+}
+
+.color_text {
+	background-color: #464c77;
+}	

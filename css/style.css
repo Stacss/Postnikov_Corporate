@@ -171,7 +171,7 @@ p {
 	text-align: center;
 }
 .logo {
-	width: 240px;
+	width: 300px;
 	height: 160px;
 	text-align: left;
 	margin: 80px 0px 100px 150px;
@@ -203,6 +203,12 @@ nav strong {
 	color: #282828;
 	font-weight: normal;
 }
+.logo strong {
+	font-size: 22px;
+	color: #282828;
+	font-weight: normal;
+}
+
 nav a{
 	text-decoration: none;
 	color: #c7c6c5;
@@ -238,7 +244,30 @@ nav li {
 	background-color: red;
 	color: white;
 }
-
+.e_button{
+	width: 215px;
+	height: 50px;
+	background-color: #f6f6f6;
+	border: solid 1px #b8b8bf;
+	border-radius: 3px;
+}
 .color_text {
 	background-color: #464c77;
-}	
+	
+}
+.red_cup {
+	position: relative;
+	top: 5px;
+	left: -6px;
+	width: 52px;
+	height: 52px;
+	background-color: #ff6d6d;
+	border-radius: 3px;
+	border: solid 1px #ff6d6d;
+}
+.logo .social {
+	display: block;
+	width: 290px;
+	margin-top: 40px;
+	filter: hue-rotate #cbcbcb;
+}

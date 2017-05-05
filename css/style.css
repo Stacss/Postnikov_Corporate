@@ -171,7 +171,7 @@ p {
 	text-align: center;
 }
 .logo {
-	width: 300px;
+	width: 272px;
 	height: 160px;
 	text-align: left;
 	margin: 80px 0px 100px 150px;
@@ -270,4 +270,23 @@ nav li {
 	width: 290px;
 	margin-top: 40px;
 	filter: hue-rotate #cbcbcb;
+}
+.social {
+	display: inline-block;
+	text-align: center;
+}
+.social a{
+	margin: 0px 10px 0px 10px;
+}
+.content {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.content p {
+	color: #b8b9c3;
+	font-size: 16px;
+}
+.content a {
+	color: #b8b9c3;
 }

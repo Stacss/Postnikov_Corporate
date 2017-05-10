@@ -72,17 +72,31 @@ p {
 	margin: 0px 120px 120px 120px;
 }
 .container h3 {
-	text-align: center;
+	text-align: left;
 }
 .container h4 {
-	text-align: center;
+	text-align: left;
 }
 .container p {
 	display: block;
 	margin-top: 30px;
 }
+.container_c {
+	margin: 0px 120px 120px 120px;
+}
+.container_c h3 {
+	text-align: center;
+}
+.container_c h4 {
+	text-align: center;
+}
+.container_c p {
+	display: block;
+	margin-top: 30px;
+}
+
 .container_form {
-	margin: 0px 120px 0px 120px;
+	margin: 0px 120px 40px 120px;
 }
 .container_form h3 {
 	text-align: center;
@@ -228,7 +242,7 @@ nav li {
 }
 .form input{
 	display: inline-block;
-	margin: 100px 10px 50px 10px;
+	margin: 60px 10px 50px 10px;
 	width: 260px;
 	height: 50px;
 	border: solid 1px white;
@@ -236,7 +250,7 @@ nav li {
 }
 .form button{
 	display: inline-block;
-	margin: 100px 10px 50px 10px;
+	margin: 60px 10px 50px 10px;
 	width: 260px;
 	height: 50px;
 	border: solid 1px white;
@@ -289,4 +303,42 @@ nav li {
 }
 .content a {
 	color: #b8b9c3;
+}
+.play {
+	display: block;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.play img{
+	display: block;
+	margin: 0 auto;
+}
+.play img:hover{
+	filter: invert(100%);
+}
+.play button{
+	display: block;
+	width: 148px;
+	height: 48px;
+	background-color: #ff6d6d;
+	color: #ffffff;
+	border: 1px solid #ff6d6d;
+	border-radius: 3px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.play p{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	color: #8b8b8e;
+	font-size: 14px;
+}
+.see_free {
+	position: absolute;
+	right: 15%;
+}
+.see_free img {
+	float: left;
 }
